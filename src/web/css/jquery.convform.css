@@ -70,7 +70,7 @@ div.conv-form-wrapper:before {
     top: 0;
     left: 0;
     z-index: 2;
-    background: linear-gradient(#000000, transparent);
+    background: linear-gradient(#e58989, transparent);
 }
 @media (max-width: 767px) {
     div.conv-form-wrapper div.wrapper-messages, div.conv-form-wrapper div#messages {
@@ -129,7 +129,7 @@ div.conv-form-wrapper  div#messages div.message {
     border-radius: 20px;
     padding: 12px 22px;
     font-size: 0.905rem;
-    color: #333;
+    color: #ed8484;
     display: inline-block;
     padding: 10px 15px 8px;
     border-radius: 20px;
@@ -147,7 +147,7 @@ div.conv-form-wrapper  div#messages div.message.to {
 }
 div.conv-form-wrapper div#messages div.message.from {
     background: linear-gradient(to left, #38ff84 0%, #98fbbe 100%);
-    color: #000000;
+    color: #df7d7d;
     border-top-right-radius: 0;
 }
 .message.to+.message.from, .message.from+.message.to {

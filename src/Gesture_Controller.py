@@ -1,5 +1,3 @@
-# Imports
-
 import cv2 #Captures vedio from the webcam and process the frames to detect the gesture
 import mediapipe as mp #It is a library used to detect and track the hands,face and pose 
 import pyautogui #It is used for controlling mouse and keyboard actions like cursor ,clicking and scrolling
@@ -526,7 +524,6 @@ class GestureController:
                     break
         GestureController.cap.release()
         cv2.destroyAllWindows()
-
 
 #gc1 = GestureController()
 #gc1.start()
